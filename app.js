@@ -38,9 +38,24 @@ alert(message)
 /////////INIZIO SECONDO ESERCIZIO//////////
 
 // - genera un numero da 1 a 6 per il giocatore
+btnDOMElement = document.getElementById('button');
+btnDOMElement.addEventListener('click', function () {
+const userNumber = Math.floor(Math.random() * (6 - 1) + 1);
+console.log(userNumber)
 // - genera un numero da 1 a 6 per il computer 
+const pcNumber = Math.floor(Math.random() * (6 - 1) + 1); 
+console.log(pcNumber)
 // - confronta i due numeri 
 // - se a > b allora a ha vinto 
+if (userNumber > pcNumber) {
+alert('hai vinto')
+}
+else if (userNumber === pcNumber) {
+alert('Siete pari')
+}
+else {
+alert('hai perso')
+}
 // - altrimenti ha vinto b 
 // - altrimenti sono pari 
-
+})
