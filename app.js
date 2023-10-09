@@ -49,13 +49,12 @@ console.log(pcNumber)
 // - se a > b allora a ha vinto 
 if (userNumber > pcNumber) {
 alert('hai vinto')
-}
+} // - altrimenti sono pari 
 else if (userNumber === pcNumber) {
 alert('Siete pari')
-}
+} // - altrimenti a ha perso 
 else {
 alert('hai perso')
 }
-// - altrimenti ha vinto b 
-// - altrimenti sono pari 
+
 })
