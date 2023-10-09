@@ -37,3 +37,10 @@ alert(message)
 
 /////////INIZIO SECONDO ESERCIZIO//////////
 
+// - genera un numero da 1 a 6 per il giocatore
+// - genera un numero da 1 a 6 per il computer 
+// - confronta i due numeri 
+// - se a > b allora a ha vinto 
+// - altrimenti ha vinto b 
+// - altrimenti sono pari 
+
