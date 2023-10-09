@@ -48,13 +48,13 @@ console.log(pcNumber)
 // - confronta i due numeri 
 // - se a > b allora a ha vinto 
 if (userNumber > pcNumber) {
-alert('hai vinto')
+    alert('hai vinto')
 } // - altrimenti sono pari 
 else if (userNumber === pcNumber) {
-alert('Siete pari')
+    alert('Siete pari')
 } // - altrimenti a ha perso 
 else {
-alert('hai perso')
+    alert('hai perso')
 }
 
 })
