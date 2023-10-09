@@ -1,0 +1,5 @@
+- crea un array di mail
+- chiedi all'utente la mail
+- PER OGNI mail nell'array, fai un confronto con la mail dell'utente
+- se la mail è nell'array, stampa 'Accesso riuscito'
+- se la mail non è nell'array, stampa 'Accesso negato'
