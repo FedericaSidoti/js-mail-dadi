@@ -1,3 +1,5 @@
+//////// Primo esercizio ///////////
+
 // - crea un array di mail
 const arrayEmails = [
 'frodobaggins@gmail.com',
@@ -7,8 +9,6 @@ const arrayEmails = [
 'legolasverdefoglia@gmail.com',
 'aragornelessar@gmail.com'
 ]
-
-
 
 const usersNumber = arrayEmails.length; 
 
@@ -31,4 +31,9 @@ for (let i = 0 ; i < usersNumber; i ++) {
 }
 
 console.log(message)
+alert(message)
+
+//////FINE PRIMO ESERCIZIO//////
+
+/////////INIZIO SECONDO ESERCIZIO//////////
 
